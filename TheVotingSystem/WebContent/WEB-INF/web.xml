@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>TheVotingSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>mainWebHomePage.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description>All operations of admin</description>
+    <display-name>SAdmin</display-name>
+    <servlet-name>SAdmin</servlet-name>
+    <servlet-class>controller.SAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SAdmin</servlet-name>
+    <url-pattern>/SAdmin.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SignUp</display-name>
+    <servlet-name>SignUp</servlet-name>
+    <servlet-class>controller.SignUp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SignUp</servlet-name>
+    <url-pattern>/SignUp.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>It will store the data with upload a file</description>
+    <display-name>SAdminSignUp</display-name>
+    <servlet-name>SAdminSignUp</servlet-name>
+    <servlet-class>controller.SAdminSignUp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SAdminSignUp</servlet-name>
+    <url-pattern>/SAdminSignUp.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Here Voter registration is done</description>
+    <display-name>SVoterSignUp</display-name>
+    <servlet-name>SVoterSignUp</servlet-name>
+    <servlet-class>controller.SVoterSignUp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SVoterSignUp</servlet-name>
+    <url-pattern>/SVoterSignUp.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Here voter operations are done</description>
+    <display-name>SVoter</display-name>
+    <servlet-name>SVoter</servlet-name>
+    <servlet-class>controller.SVoter</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SVoter</servlet-name>
+    <url-pattern>/SVoter.do</url-pattern>
+  </servlet-mapping>
+</web-app>

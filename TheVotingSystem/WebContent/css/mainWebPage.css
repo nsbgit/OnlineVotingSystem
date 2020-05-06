@@ -1,0 +1,398 @@
+@CHARSET "ISO-8859-1";
+
+.error{
+	color: red;
+	font-size: 12px;
+}
+.hyperLink {
+	color: blue;
+	font-family: cursive;
+	font-style: italic;
+	padding-left: 30px;
+}
+
+
+.header{
+	background-color: #a768f2;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold
+}
+LABEL{
+	color: #a768f2;
+	font-weight: bold;
+	padding-left: 30px
+}
+
+.viewPro {
+	color: #243A80;
+	font-family: inherit;
+	padding-left: 30px;
+}
+
+.box{
+box-shadow: 10px 10px 15px #ddcef0;
+background-color: white;
+}
+.body{
+	background-color: #F8FACA;
+	width: 600px;
+	height: 750px;
+	margin: 0 auto;
+	border-bottom-style: inset;
+	border-right-style: inset;
+}
+.btn{
+	background-color: #a768f2;
+	color: white;
+	font-weight: bold;
+}
+.recordsBody {
+	background-color: #F8FACA;
+	width: 1572px;
+	height: 950px;
+	margin: 0 auto;
+	border-bottom-style: inset;
+	border-right-style: inset;
+}
+
+EM {
+	color: red;
+	font-family: cursive;
+}
+
+.pageHeader {
+	background-color: whtie;
+	color: #833059;
+	font-family: inherit;
+	box-shadow: 10px 10px 15px #ddcef0;
+}
+
+.sessionMessage {
+	color: green;
+	font-style: italic;
+	font-family: cursive;
+}
+
+em {
+	color: red;
+	font-family: cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*globsyn registration*/
+/*
+body {
+    color: #333333;
+    font-family: arial,tahoma;
+    font-size: 12px;
+    margin: 0;
+}
+h6 {
+    color: #FFFFFF;
+    float: left;
+    font-weight: 100;
+}
+#formcontainer, #container {
+    border: 1px solid #CCCCCC;
+    margin: 0 auto;
+    width: 800px;
+}
+#container {
+    border: medium none;
+    width: 1000px;
+}
+#formheader, #header {
+    background: none repeat scroll 0 0 #333333;
+    border-bottom: 5px solid #4B7FC1;
+    color: #FFFFFF;
+    font: bold 20px/30px tahoma,arial;
+    height: 40px;
+    padding: 10px;
+}
+#formheader img, #header img {
+    float: left;
+    height: 30px;
+}
+#instructions {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px dashed #CCCCCC;
+    margin: 10px;
+    padding: 10px;
+}
+#instructions b {
+    display: block;
+}
+#instructions ul {
+    font: 11px arial;
+    list-style: square outside none;
+}
+#form {
+    padding: 10px;
+}
+#form span {
+    border-bottom: 1px dashed #CCCCCC;
+    color: #4B7FC1;
+    display: block;
+    font: bold 14px/18px tahoma,verdana,arial;
+    margin: 10px 0 20px;
+}
+.formnames, .logfnames {
+    clear: both;
+    float: left;
+    width: 150px;
+}
+.logfnames {
+    width: 80px;
+}
+.input {
+    border: 1px solid #CCCCCC;
+    width: 200px;
+}
+#form i {
+    font-size: 11px;
+}
+#form select {
+    border: 1px solid #CCCCCC;
+}
+#openother, #openothergtri, #postgrad {
+    display: none;
+}
+#refferedid {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px dotted #DDDDDD;
+    margin-bottom: 12px;
+    padding: 10px;
+}
+.dddetails {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: 1px dashed #DDDDDD;
+    margin-bottom: 12px;
+    padding: 10px;
+}
+.ddinfo {
+    color: #4B7FC1;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.onlinterms {
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+.disclaimer {
+    color: #4B7FC1;
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+.iagree {
+    background: none repeat scroll 0 0 #BBBBBB;
+    line-height: 23px;
+}
+.button {
+    background: none repeat scroll 0 0 #333333;
+    border: 1px inset #CCCCCC;
+    color: #FFFFFF;
+}
+#formfoot {
+    background: none repeat scroll 0 0 #333333;
+    border-top: 5px solid #4B7FC1;
+    height: 50px;
+    margin-top: 25px;
+}
+#formfoot ul {
+    color: #FFFFFF;
+    float: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+#formfoot ul li {
+    display: inline;
+    padding-left: 5px;
+}
+.fl {
+    float: left;
+}
+.black {
+    background: none repeat scroll 0 0 #333333;
+    border-top: 1px solid #4B7FC1;
+    color: #FFFFFF;
+    width: 100%;
+}
+.black p {
+    padding: 5px;
+}
+.subedu {
+    border-bottom: 1px dotted #CCCCCC;
+    color: #4B7FC1;
+    display: block;
+    font: bold 11px/23px tahoma,verdana,arial;
+    margin: 10px 0;
+}
+#error, .error {
+    background: none repeat scroll 0 0 #FFEBE8;
+    border: 1px solid #A80000;
+    color: #A80000;
+    display: none;
+    font: bold 12px/22px tahoma,verdana,arial;
+    padding: 10px;
+    text-align: center;
+}
+.error {
+    display: block;
+}
+#footer {
+    background: none repeat scroll 0 0 #333333;
+    border-top: 5px solid #4B7FC1;
+    clear: both;
+    color: #FFFFFF;
+    height: 60px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+#footer a {
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 5px;
+    text-decoration: none;
+}
+#navi {
+    color: #FFFFFF;
+    float: right;
+    font: 12px/20px arial;
+    margin-right: 20px;
+    padding: 20px;
+}
+#navi a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#navi a:hover {
+    color: #4B7FC1;
+    text-decoration: underline;
+}
+#maincontent {
+    height: 400px;
+    padding: 10px;
+}
+#successmess {
+    color: #333333;
+    font: bold 12px tahoma,verdana,arial;
+    height: 200px;
+    margin: 0 auto;
+    padding: 60px 10px;
+    width: 600px;
+}
+.showdetails {
+    background: none repeat scroll 0 0 #F3F0E9;
+    border: 1px solid #BBBBBB;
+    font-size: 11px;
+    margin: 0 20px 20px;
+    padding: 5px 10px;
+}
+.showdetails div {
+    border: 0 none;
+    color: #A80000;
+    display: block;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.showdetails ul {
+    list-style: square outside none;
+}
+.porgramselection {
+    display: block;
+    margin-top: 10px;
+    padding-left: 80px;
+}
+.locations b {
+    color: #A80000;
+    font: bold 14px Tahoma,verdana,arial;
+}
+.applybtn {
+    background: linear-gradient(to bottom, #F2F6F8 0%, #D8E1E7 50%, #B5C6D0 51%, #E0EFF9 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 5px 20px;
+}
+.adjMargin {
+    margin-left: 10px;
+}
+.accordion {
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #999999;
+    width: 100%;
+}
+.accordion section h2 {
+    background: none repeat scroll 0 0 #80BCD3;
+    text-indent: 14px;
+}
+.accordion section h2 a {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.accordion section {
+    background-color: #FFFFFF;
+    background-image: -moz-linear-gradient(center top , #FFFFFF, #EEEEEE);
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+.accordion h2, .accordion p {
+    margin: 0;
+}
+.accordion p {
+    padding: 10px;
+}
+.accordion h2 a {
+    border-radius: 5px;
+    color: #333333;
+    display: block;
+    font: 14px/1 'Trebuchet MS','Lucida Sans';
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+}
+.accordion h2 a:hover {
+    background: none repeat scroll 0 0 #009999;
+}
+.accordion h2 + div {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out 0s;
+}
+.accordion *:target h2 a:after {
+    border-left: 5px solid rgba(0, 0, 0, 0);
+    border-right: 5px solid rgba(0, 0, 0, 0);
+    border-top: 5px solid #333333;
+    content: "";
+    margin-top: -3px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+.accordion *:target h2 + div {
+    height: 100px;
+    overflow-y: auto;
+}
+.adjchkbox {
+    margin-top: 7px !important;
+    position: absolute;
+    z-index: 9999;
+}
+
+*/
+
+/**********************/

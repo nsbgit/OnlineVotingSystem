@@ -1,0 +1,12 @@
+[DEFAULT]
+BASEURL=http://www.javascriptkit.com/script/script2/tengcalendar.shtml
+[DOC_aswift_0]
+BASEURL=http://www.javascriptkit.com/script/script2/tengcalendar.shtml
+ORIGURL=
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[InternetShortcut]
+URL=http://www.javascriptkit.com/script/script2/tengcalendar.shtml
+IDList=
+IconFile=http://www.javascriptkit.com/favicon.ico
+IconIndex=1
